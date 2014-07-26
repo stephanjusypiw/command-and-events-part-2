@@ -23,3 +23,7 @@ Route::post('jobs/store', [
     'as' => 'jobs/store',
     'uses' => 'JobController@store'
 ]);
+
+
+// route to get the store
+route::get('jobs/store', 'JobsController@store');
