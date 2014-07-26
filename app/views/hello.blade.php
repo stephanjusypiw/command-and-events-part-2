@@ -39,9 +39,9 @@
 		<h1>You have arrived.!!!!!</h1>
 
         <!-- only used to post false data -->
-        {{ Form::open(['route' => 'jobs/store']) }}
-        {{ Form::submit('Sign Up') }}
-        {{ Form::close() }}
+<!--        {{ Form::open(['route' => 'jobs/store']) }}-->
+<!--        {{ Form::submit('Sign Up') }}-->
+<!--        {{ Form::close() }}-->
 
 	</div>
 </body>
